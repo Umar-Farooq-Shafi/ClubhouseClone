@@ -1,0 +1,91 @@
+.profileContainer {
+    height: 100%;
+    overflow: auto;
+    padding: 0 0.5em;
+    padding-top: 5em;
+}
+
+.profileContainer .profileImg {
+    width: 80px;
+    border-radius: 2.2em;
+}
+
+.actionBtn > svg:last-child {
+    margin-right: 0;
+}
+
+.actionBtn svg {
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+.profileContainer h6 {
+    font-size: 1.5em;
+    color: var(--textColor);
+    margin: 0.5em 0 0.1em 0;
+}
+
+.profileContainer p {
+    font-size: 1.1em;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+.profileContainer .follow {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 2.5em;
+}
+
+.profileContainer .follow > p:first-child {
+    margin-right: 2.5em;
+}
+
+.profileContainer .follow p span {
+    font-weight: 400;
+    color: var(--textColor);
+    margin-right: 0.2em;
+    font-size: 1.3em;
+}
+
+.profileContainer button {
+    border: none;
+    background-color: transparent;
+    color: blue;
+    margin-bottom: 2em;
+}
+
+.nominated img {
+    width: 50px;
+    border-radius: 1em;
+    margin-right: 0.5em;
+}
+
+.nominated {
+    align-items: center;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.nominated p {
+    font-size: 0.875em;
+    line-height: 1.4;
+}
+
+.nominated span {
+    font-weight: 500;
+    color: var(--textColor);
+}
+
+.addMemberBtn {
+    background-color: lightblue !important;
+    margin-bottom: 0 !important;
+    padding: 0.8em 1em;
+    border-radius: 1em;
+    line-height: 1;
+    margin-top: 0.3em;
+}
+
+.profileImg {
+
+}

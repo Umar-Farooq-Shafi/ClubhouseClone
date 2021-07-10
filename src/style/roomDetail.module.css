@@ -1,0 +1,154 @@
+.roomDetailContainer {
+    height: 100%;
+    background: #f2f0e4;
+    margin: -1.5em -1em;
+}
+
+.roomDetailContainer .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 0.5em 1.5em 0.5em;
+}
+
+.head .arrowIcon {
+    width: 15px;
+    transform: rotate(-90deg);
+    margin-top: -0.5em;
+}
+
+.head .profileImg {
+    width: 25px;
+    border-radius: 0.8em;
+    margin-left: 1.5em;
+}
+
+.head span {
+    font-size: 1em;
+    margin-left: 0.5em;
+}
+
+.head svg {
+    font-size: 1.9em;
+}
+
+.roomDetailCard {
+    background-color: #ffffff;
+    padding: 1em 1em 3em 1em;
+    border-radius: 1.5em 1.5em 0 0;
+    height: 90vh;
+    overflow: auto;
+}
+
+.roomDetailCard img {
+    width: 70px;
+    border-radius: 1.7em;
+}
+
+.roomDetailCard h6 {
+    font-size: 0.65em;
+    color: var(--textColor);
+    font-weight: 500;
+    margin-bottom: 0.4em;
+}
+
+.memberContainer {
+    text-align: center;
+    width: 70px;
+    position: relative;
+}
+
+.memberContainer .audioIcon {
+    position: absolute;
+    right: -5px;
+    bottom: 36px;
+    z-index: 5;
+    background-color: #ffffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px #cccccc;
+}
+
+.audioIcon svg {
+    color: #28ae61;
+}
+
+.memberContainer p {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000000;
+}
+
+.memberContainer span {
+    font-weight: 2.5em;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #28ae61;
+    color: #ffffff;
+    margin-right: 0.1em;
+    line-height: 0.8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+}
+
+.footer button {
+    background-color: #e7e4d5 !important;
+    border: none;
+    border-radius: 2em;
+}
+
+.footer button img {
+    width: 30px;
+}
+
+.footer > button {
+    display: flex;
+    align-items: center;
+    padding: 0.3em 1em;
+    color: #28ae61;
+    font-weight: 500;
+}
+
+.footer > div {
+    display: flex;
+}
+
+.footer > div > button {
+    line-height: 1;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div > button:first-child {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.footer > div > button:nth-child(2) {
+    margin-right: 0.5em;
+}
+
+.footer > div > button:nth-child(3) {
+    font-size: 1.5em;
+}
